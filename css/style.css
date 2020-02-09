@@ -1,7 +1,73 @@
 /* style.css */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  flex-direction: column;
+}
+
+img:hover,
+main:hover,
+aside:hover,
+textarea:hover {
+  filter: opacity(90%) brightness(100%);
+}
+
+div {
+  padding: 20px;
+}
+header,
+footer {
+  border: 2px solid #000000;
+  background: rgb(168, 227, 250);
+  padding: 40px;
+}
+main,
+aside {
+  display: flex;
+  text-align: center;
+}
+
+aside {
+  flex-wrap: wrap;
+}
+
+img {
+  width: 49%;
+}
+
+label {
+  width: 100%;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 70%;
+}
+
+.darkmode {
+  background: #000000;
+  color: #ffffff;
+}
+
+.col1 {
+  background: #ff5d5d;
+}
+
+.col2 {
+  background: #5df4ff;
+}
+
+.col3 {
+  background: #5dff65;
+}
+
+.col4 {
+  background: #f4ff5d;
+}
+
+.col5 {
+  background: #ec5dff;
 }
